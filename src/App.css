@@ -1,0 +1,24 @@
+.App {
+  @import url('https://fonts.googleapis.com/css?family=Press+Start+2P|ZCOOL+KuaiLe|');
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  flex-wrap: wrap;
+  background-image: url('./assets/black-space.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+ }
