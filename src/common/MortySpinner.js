@@ -1,7 +1,7 @@
-import CharacterWindow from "../styles/СharacterWindow"
-import Spinner from "../styles/Spinner"
+import CharacterWindow from "../styledComponents/СharacterWindow"
+import Spinner from "../styledComponents/Spinner"
 import spinner from "../assets/morty-spinner.png"
-import {Neon} from "../styles/StyledHeaders"
+import {Neon} from "../styledComponents/StyledHeaders"
 import React from "react"
 
 const MortySpinner = () => {

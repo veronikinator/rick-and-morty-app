@@ -1,9 +1,9 @@
 import React from "react"
 import "./App.css"
 import {Link} from "react-router-dom"
-import {NeonMainHeader,GameFont} from "./styles/StyledHeaders"
+import {NeonMainHeader,GameFont} from "./styledComponents/StyledHeaders"
 import gif from "./assets/landingPage.gif"
-import { FlexColumn } from "./styles/FlexBoxes";
+import { FlexColumn } from "./styledComponents/FlexBoxes";
 
 const LandingPage = () => {
     return (

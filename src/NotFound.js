@@ -1,8 +1,8 @@
 import React from "react"
 import falcon from "./assets/falconpng.png"
-import {FlexColumn} from './styles/FlexBoxes'
+import {FlexColumn} from './styledComponents/FlexBoxes'
 import {Link} from "react-router-dom"
-import {GameFont} from "./styles/StyledHeaders"
+import {GameFont} from "./styledComponents/StyledHeaders"
 import styled from "styled-components"
 
 const ShakeIt = styled.img`

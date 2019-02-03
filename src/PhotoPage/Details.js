@@ -1,7 +1,7 @@
 
 import React from "react"
-import {Neon} from "../styles/StyledHeaders"
-import {FlexRow} from "../styles/FlexBoxes"
+import {Neon} from "../styledComponents/StyledHeaders"
+import {FlexRow} from "../styledComponents/FlexBoxes"
 
 const Details = ({status, species, gender, origin, location}) => {
     const originString = origin.type==null ? "uknown" :`${origin.type} ${origin.name}(${origin.dimension})`

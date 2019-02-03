@@ -1,15 +1,15 @@
 import React from "react"
 import { Link } from 'react-router-dom'
-import Photo from "../styles/Photo"
+import Photo from "../styledComponents/Photo"
 import styled from "styled-components"
 import MortySpinner from "../common/MortySpinner.js";
 import Header from "../Header"
-import { GameFont } from "../styles/StyledHeaders"
+import { GameFont } from "../styledComponents/StyledHeaders"
 import { graphql } from 'react-apollo'
 
 import gql from 'graphql-tag'
-import { FlexRow, FlexColumn } from "../styles/FlexBoxes";
-import Button from "../styles/Button";
+import { FlexRow, FlexColumn } from "../styledComponents/FlexBoxes";
+import Button from "../styledComponents/Button";
 
 export const GET_CHARACTER_LIST_QUERY = gql` 
 query getCharacterList($page:Int) {
